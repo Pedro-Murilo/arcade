@@ -1,22 +1,6 @@
 <h1 align="center">👾 Arcade</h1>
 <p align="center"><img width="500px" src="https://github.com/Pedro-Murilo/arcade/blob/main/img/ahri.png" alt="Logo" /></p>
 
----
-<p align="center">
-<a href="https://sass-lang.com/">
-  <img alt="Made with SASS" src="https://img.shields.io/badge/Made_with-SASS-000?style=for-the-badge&logo=sass" />
-</a>
-
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/pedro-murilo/arcade?color=000&style=for-the-badge">
-  
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/pedro-murilo/arcade?color=000&style=for-the-badge">
-  
-  <img alt="License" src="https://img.shields.io/github/license/pedro-murilo/arcade?color=000&style=for-the-badge"/>
-  
-  <a href="https://github.com/Pedro-Murilo/">
-    <img alt="Developed by Pedro" src="https://img.shields.io/badge/Dev-Pedro-%3498db?color=000&style=for-the-badge">
-  </a>
-</p>
 
 <div align="center">
   <a href="#-final-project">Final Project</a> |
@@ -30,7 +14,7 @@
 
 ---
 ### ✨ Final Project
-<p align="center"><img src="https://github.com/Pedro-Murilo/spider-man/blob/main/.github/spiderman.gif" alt="Final Project" /></p>
+<p align="center"><img src="https://github.com/Pedro-Murilo/arcade/blob/main/.github/ahri-vid.gif" alt="Final Project" /></p>
 
 ---
 ### 📋 About
