@@ -14,6 +14,7 @@
 
 ---
 ### ✨ Final Project
+> Netlify: https://arcade-pedro.netlify.app/
 <p align="center"><img src="https://github.com/Pedro-Murilo/arcade/blob/main/.github/ahri-vid.gif" alt="Final Project" /></p>
 
 ---
