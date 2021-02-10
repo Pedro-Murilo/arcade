@@ -1,0 +1,127 @@
+@mixin responsive() {
+  @media screen and (max-width: 960px) {
+    @content;
+  }
+}
+
+header {
+  width: 100%;
+  padding-top: 16px;
+
+  svg {
+    cursor: pointer;
+
+    path {
+      transition: 0.7s ease;
+    }
+
+    &:hover {
+      path {
+        fill: $purple-light;
+      }
+    }
+  }
+
+  .navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-menu {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+
+        li {
+          margin-left: 24px;
+        }
+
+        @include responsive() {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  font-weight: 200;
+  position: relative;
+  color: $gray-dark;
+  transition: 0.5s ease;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transition: 0.5s ease;
+
+    width: 2px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(233, 29, 34, 0) 0%,
+      $purple-light 100%
+    );
+  }
+
+  &:hover {
+    color: $white-light;
+
+    &::after {
+      height: 40px;
+    }
+  }
+}
+
+.bx {
+  display: none;
+
+  @include responsive() {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: $white;
+    border-radius: 8px;
+  }
+}
+
+.nav-social {
+  display: flex;
+
+  svg {
+    cursor: pointer;
+
+    margin-left: 16px;
+
+    path,
+    circle {
+      transition: 0.7s ease;
+    }
+
+    &:hover {
+      path,
+      circle {
+        fill: $purple-light;
+        transform: translate3d(0, -3px, 0);
+      }
+    }
+  }
+
+  @include responsive() {
+    display: none;
+  }
+}
